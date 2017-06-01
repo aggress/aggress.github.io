@@ -14,6 +14,7 @@ One more step that doesn't need reproducing on each deployment.
 
 ```
 mkdir centos7_custom_box
+cd centos7_custom_box
 vagrant init centos/7
 vagrant up
 vagrant ssh
