@@ -22,7 +22,7 @@ sudo yum update
 sudo yum clean all
 ctrl +d
 vagrant package --output centos7_updated.box
-vagrant box add centos7_updated.box 
+vagrant box add centos7_updated.box --name centos7_updated
 vagrant box list
 vagrant halt
 ```
